@@ -1,0 +1,77 @@
+.navbar {
+  background-color: rgb(6, 113, 184);
+}
+
+.nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: white;
+  background-color: #2e4c6d;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.social {
+  font-size: 200%;
+}
+
+#projects .card {
+  border-radius: 25px;
+  height: 14rem;
+  position: relative;
+}
+
+#projects .card:hover {
+  -webkit-box-shadow: -8px 6px 106px -66px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 6px 106px -66px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px 6px 106px -66px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+
+#projects .card::before {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: cornflowerblue;
+  opacity: 1;
+  position: absolute;
+}
+
+#projects img {
+  border-radius: 25px 25px 0px 0px;
+  min-height: 10rem;
+  max-height: 10rem;
+  width: fit-content;
+}
+
+section#awards {
+  padding-top: 0;
+  background-color: #e2edff;
+}
+
+.foot {
+  background-color: rgb(6, 113, 184);
+}
+
+.bi bi-heart-fill {
+  color: #e2edff;
+}
